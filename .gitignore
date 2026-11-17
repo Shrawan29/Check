@@ -1,0 +1,25 @@
+# Dependencies and build output
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+
+# Local data written by the API in development (orders, subscribers, messages)
+.data
+
+# The original plain-HTML version of the site, kept only as a local backup
+legacy-static
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Vercel CLI project link; specific to your machine
+.vercel
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
